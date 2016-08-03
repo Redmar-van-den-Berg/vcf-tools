@@ -1,0 +1,109 @@
+##fileformat=VCFv4.2
+##ALT=<ID=NON_REF,Description="Represents	any	possible	alternative	allele	at	this	location">
+##FILTER=<ID=LowQual,Description="Low	quality">
+##FORMAT=<ID=AD,Number=.,Type=Integer,Description="Allelic	depths	for	the	ref	and	alt	alleles	in	the	order	listed">
+##FORMAT=<ID=DP,Number=1,Type=Integer,Description="Approximate	read	depth	(reads	with	MQ=255	or	with	bad	mates	are	filtered)">
+##FORMAT=<ID=GQ,Number=1,Type=Integer,Description="Genotype	Quality">
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+##FORMAT=<ID=MIN_DP,Number=1,Type=Integer,Description="Minimum	DP	observed	within	the	GVCF	block">
+##FORMAT=<ID=PL,Number=G,Type=Integer,Description="Normalized,	Phred-scaled	likelihoods	for	genotypes	as	defined	in	the	VCF	specification">
+##FORMAT=<ID=SB,Number=4,Type=Integer,Description="Per-sample	component	statistics	which	comprise	the	Fisher's	Exact	Test	to	detect	strand	bias.">
+##GVCFBlock0-1=minGQ=0(inclusive),maxGQ=1(exclusive)
+##GVCFBlock1-2=minGQ=1(inclusive),maxGQ=2(exclusive)
+##GVCFBlock10-11=minGQ=10(inclusive),maxGQ=11(exclusive)
+##GVCFBlock11-12=minGQ=11(inclusive),maxGQ=12(exclusive)
+##GVCFBlock12-13=minGQ=12(inclusive),maxGQ=13(exclusive)
+##GVCFBlock13-14=minGQ=13(inclusive),maxGQ=14(exclusive)
+##GVCFBlock14-15=minGQ=14(inclusive),maxGQ=15(exclusive)
+##GVCFBlock15-16=minGQ=15(inclusive),maxGQ=16(exclusive)
+##GVCFBlock16-17=minGQ=16(inclusive),maxGQ=17(exclusive)
+##GVCFBlock17-18=minGQ=17(inclusive),maxGQ=18(exclusive)
+##GVCFBlock18-19=minGQ=18(inclusive),maxGQ=19(exclusive)
+##GVCFBlock19-20=minGQ=19(inclusive),maxGQ=20(exclusive)
+##GVCFBlock2-3=minGQ=2(inclusive),maxGQ=3(exclusive)
+##GVCFBlock20-21=minGQ=20(inclusive),maxGQ=21(exclusive)
+##GVCFBlock21-22=minGQ=21(inclusive),maxGQ=22(exclusive)
+##GVCFBlock22-23=minGQ=22(inclusive),maxGQ=23(exclusive)
+##GVCFBlock23-24=minGQ=23(inclusive),maxGQ=24(exclusive)
+##GVCFBlock24-25=minGQ=24(inclusive),maxGQ=25(exclusive)
+##GVCFBlock25-26=minGQ=25(inclusive),maxGQ=26(exclusive)
+##GVCFBlock26-27=minGQ=26(inclusive),maxGQ=27(exclusive)
+##GVCFBlock27-28=minGQ=27(inclusive),maxGQ=28(exclusive)
+##GVCFBlock28-29=minGQ=28(inclusive),maxGQ=29(exclusive)
+##GVCFBlock29-30=minGQ=29(inclusive),maxGQ=30(exclusive)
+##GVCFBlock3-4=minGQ=3(inclusive),maxGQ=4(exclusive)
+##GVCFBlock30-31=minGQ=30(inclusive),maxGQ=31(exclusive)
+##GVCFBlock31-32=minGQ=31(inclusive),maxGQ=32(exclusive)
+##GVCFBlock32-33=minGQ=32(inclusive),maxGQ=33(exclusive)
+##GVCFBlock33-34=minGQ=33(inclusive),maxGQ=34(exclusive)
+##GVCFBlock34-35=minGQ=34(inclusive),maxGQ=35(exclusive)
+##GVCFBlock35-36=minGQ=35(inclusive),maxGQ=36(exclusive)
+##GVCFBlock36-37=minGQ=36(inclusive),maxGQ=37(exclusive)
+##GVCFBlock37-38=minGQ=37(inclusive),maxGQ=38(exclusive)
+##GVCFBlock38-39=minGQ=38(inclusive),maxGQ=39(exclusive)
+##GVCFBlock39-40=minGQ=39(inclusive),maxGQ=40(exclusive)
+##GVCFBlock4-5=minGQ=4(inclusive),maxGQ=5(exclusive)
+##GVCFBlock40-41=minGQ=40(inclusive),maxGQ=41(exclusive)
+##GVCFBlock41-42=minGQ=41(inclusive),maxGQ=42(exclusive)
+##GVCFBlock42-43=minGQ=42(inclusive),maxGQ=43(exclusive)
+##GVCFBlock43-44=minGQ=43(inclusive),maxGQ=44(exclusive)
+##GVCFBlock44-45=minGQ=44(inclusive),maxGQ=45(exclusive)
+##GVCFBlock45-46=minGQ=45(inclusive),maxGQ=46(exclusive)
+##GVCFBlock46-47=minGQ=46(inclusive),maxGQ=47(exclusive)
+##GVCFBlock47-48=minGQ=47(inclusive),maxGQ=48(exclusive)
+##GVCFBlock48-49=minGQ=48(inclusive),maxGQ=49(exclusive)
+##GVCFBlock49-50=minGQ=49(inclusive),maxGQ=50(exclusive)
+##GVCFBlock5-6=minGQ=5(inclusive),maxGQ=6(exclusive)
+##GVCFBlock50-51=minGQ=50(inclusive),maxGQ=51(exclusive)
+##GVCFBlock51-52=minGQ=51(inclusive),maxGQ=52(exclusive)
+##GVCFBlock52-53=minGQ=52(inclusive),maxGQ=53(exclusive)
+##GVCFBlock53-54=minGQ=53(inclusive),maxGQ=54(exclusive)
+##GVCFBlock54-55=minGQ=54(inclusive),maxGQ=55(exclusive)
+##GVCFBlock55-56=minGQ=55(inclusive),maxGQ=56(exclusive)
+##GVCFBlock56-57=minGQ=56(inclusive),maxGQ=57(exclusive)
+##GVCFBlock57-58=minGQ=57(inclusive),maxGQ=58(exclusive)
+##GVCFBlock58-59=minGQ=58(inclusive),maxGQ=59(exclusive)
+##GVCFBlock59-60=minGQ=59(inclusive),maxGQ=60(exclusive)
+##GVCFBlock6-7=minGQ=6(inclusive),maxGQ=7(exclusive)
+##GVCFBlock60-70=minGQ=60(inclusive),maxGQ=70(exclusive)
+##GVCFBlock7-8=minGQ=7(inclusive),maxGQ=8(exclusive)
+##GVCFBlock70-80=minGQ=70(inclusive),maxGQ=80(exclusive)
+##GVCFBlock8-9=minGQ=8(inclusive),maxGQ=9(exclusive)
+##GVCFBlock80-90=minGQ=80(inclusive),maxGQ=90(exclusive)
+##GVCFBlock9-10=minGQ=9(inclusive),maxGQ=10(exclusive)
+##GVCFBlock90-99=minGQ=90(inclusive),maxGQ=99(exclusive)
+##GVCFBlock99-2147483647=minGQ=99(inclusive),maxGQ=2147483647(exclusive)
+##INFO=<ID=BaseQRankSum,Number=1,Type=Float,Description="Z-score	from	Wilcoxon	rank	sum	test	of	Alt	Vs.	Ref	base	qualities">
+##INFO=<ID=ClippingRankSum,Number=1,Type=Float,Description="Z-score	From	Wilcoxon	rank	sum	test	of	Alt	vs.	Ref	number	of	hard	clipped	bases">
+##INFO=<ID=DP,Number=1,Type=Integer,Description="Approximate	read	depth;	some	reads	may	have	been	filtered">
+##INFO=<ID=DS,Number=0,Type=Flag,Description="Were	any	of	the	samples	downsampled?">
+##INFO=<ID=END,Number=1,Type=Integer,Description="Stop	position	of	the	interval">
+##INFO=<ID=ExcessHet,Number=1,Type=Float,Description="Phred-scaled	p-value	for	exact	test	of	excess	heterozygosity">
+##INFO=<ID=HaplotypeScore,Number=1,Type=Float,Description="Consistency	of	the	site	with	at	most	two	segregating	haplotypes">
+##INFO=<ID=InbreedingCoeff,Number=1,Type=Float,Description="Inbreeding	coefficient	as	estimated	from	the	genotype	likelihoods	per-sample	when	compared	against	the	Hardy-Weinberg	expectation">
+##INFO=<ID=MLEAC,Number=A,Type=Integer,Description="Maximum	likelihood	expectation	(MLE)	for	the	allele	counts	(not	necessarily	the	same	as	the	AC),	for	each	ALT	allele,	in	the	same	order	as	listed">
+##INFO=<ID=MLEAF,Number=A,Type=Float,Description="Maximum	likelihood	expectation	(MLE)	for	the	allele	frequency	(not	necessarily	the	same	as	the	AF),	for	each	ALT	allele,	in	the	same	order	as	listed">
+##INFO=<ID=MQ,Number=1,Type=Float,Description="RMS	Mapping	Quality">
+##INFO=<ID=MQRankSum,Number=1,Type=Float,Description="Z-score	From	Wilcoxon	rank	sum	test	of	Alt	vs.	Ref	read	mapping	qualities">
+##INFO=<ID=RAW_MQ,Number=1,Type=Float,Description="Raw	data	for	RMS	Mapping	Quality">
+##INFO=<ID=ReadPosRankSum,Number=1,Type=Float,Description="Z-score	from	Wilcoxon	rank	sum	test	of	Alt	vs.	Ref	read	position	bias">
+##contig=<ID=gi|194447306|ref|NC_011083.1|,length=4888768>
+##reference=file://NC_011083.fasta
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	102517-21
+gi|194447306|ref|NC_011083.1|	24482	.	G	<NON_REF>	.	.	END=24482	GT:DP:GQ:MIN_DP:PL	0:109:45:109:0,45
+gi|194447306|ref|NC_011083.1|	25627	.	A	<NON_REF>	.	.	END=25628	GT:DP:GQ:MIN_DP:PL	0:5:99:5:0,199
+gi|194447306|ref|NC_011083.1|	25631	.	A	<NON_REF>	.	.	END=25632	GT:DP:GQ:MIN_DP:PL	0:9:0:7:0,0
+gi|194447306|ref|NC_011083.1|	25636	.	A	<NON_REF>	.	.	END=25640	GT:DP:GQ:MIN_DP:PL	0:22:0:20:0,0
+gi|194447306|ref|NC_011083.1|	63393	.	C	A,<NON_REF>	6710	.	DP=166;MLEAC=1,0;MLEAF=1.00,0.00;RAW_MQ=597600.00	GT:AD:DP:GQ:PL:SB	1:0,166,0:166:99:6740,0,6740:0,0,59,107
+gi|194447306|ref|NC_011083.1|	65895	.	A	<NON_REF>	.	.	END=65895	GT:DP:GQ:MIN_DP:PL	0:161:45:161:0,45
+gi|194447306|ref|NC_011083.1|	65896	.	T	<NON_REF>	.	.	END=65900	GT:DP:GQ:MIN_DP:PL	0:155:0:153:0,0
+gi|194447306|ref|NC_011083.1|	65903	.	AATTGCGCTG	A,<NON_REF>	7343.97	.	DP=165;MLEAC=1,0;MLEAF=1.00,0.00;RAW_MQ=594000.00	GT:AD:DP:GQ:PL:SB	1:0,164,0:164:99:7383,0,7383:0,0,96,68
+gi|194447306|ref|NC_011083.1|	65913	.	G	<NON_REF>	.	.	END=65913	GT:DP:GQ:MIN_DP:PL	0:150:0:150:0,0
+gi|194447306|ref|NC_011083.1|	698050	.	G	GA,<NON_REF>	3944.97	.	DP=137;MLEAC=1,0;MLEAF=1.00,0.00;RAW_MQ=493200.00	GT:AD:DP:GQ:PL:SB	1:0,127,0:127:99:3984,0,3984:0,0,73,54
+gi|194447306|ref|NC_011083.1|	698051	.	A	<NON_REF>	.	.	END=698051	GT:DP:GQ:MIN_DP:PL	0:142:0:142:0,0
+gi|194447306|ref|NC_011083.1|	3176807	.	A	G,AG,<NON_REF>	179.97	.	BaseQRankSum=1.086;ClippingRankSum=0.099;DP=14;MLEAC=0,1,0;MLEAF=0.00,1.00,0.00;MQRankSum=0.493;RAW_MQ=50400.00;ReadPosRankSum=-0.099	GT:AD:DP:GQ:PL:SB	2:2,1,10,0:13:99:219,361,0,264:1,1,9,2
+gi|194447306|ref|NC_011083.1|	3176808	0	G	<NON_REF>	0	0	END=3176808	GT:DP:GQ:MIN_DP:PL	0:15:0:15:0,0
+gi|194447306|ref|NC_011083.1|	3176810	.	A	AG,G,<NON_REF>	179.97	.	BaseQRankSum=1.086;ClippingRankSum=0.099;DP=14;MLEAC=0,1,0;MLEAF=0.00,1.00,0.00;MQRankSum=0.493;RAW_MQ=50400.00;ReadPosRankSum=-0.099	GT:AD:DP:GQ:PL:SB	2:2,1,10,0:13:99:219,361,0,264:1,1,9,2
+gi|194447306|ref|NC_011083.1|	3176811	.	AGGG	A,AGGGG,<NON_REF>	5.43	.	BaseQRankSum=1.818;ClippingRankSum=0.546;DP=11;MLEAC=0,1,0;MLEAF=0.00,1.00,0.00;MQRankSum=-1.818;RAW_MQ=39600.00;ReadPosRankSum=0.731	GT:AD:DP:GQ:PL:SB	2:3,2,5,0:10:43:43,284,0,125:2,1,6,1
+
+
